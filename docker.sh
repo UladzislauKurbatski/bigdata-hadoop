@@ -1,0 +1,1 @@
+hdfs dfs -rm -r -f output && hdfs dfs -rm -r -f input && hdfs dfs -mkdir -p input && hdfs dfs -put 000000 input/000000 && hadoop jar MapReduce-1.0-SNAPSHOT.jar QueryAnalyzer input output && hdfs dfs -cat output/*

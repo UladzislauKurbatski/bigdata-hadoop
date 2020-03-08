@@ -1,0 +1,5 @@
+QueryAnalyzer$QueryMapper.class
+QueryAnalyzer.class
+QueryAnalyzer$QueryReducer.class
+AggregationResult.class
+QueryAnalyzer$QueryCombiner.class
